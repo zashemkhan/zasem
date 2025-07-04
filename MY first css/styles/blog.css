@@ -1,0 +1,37 @@
+.header{
+    width: 100%;
+    height: 100vh;
+    
+    background-image: url('books.jpeg');
+    /* background-repeat: repeat-x ; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    color: cadetblue;
+    text-align: center;
+}
+h3{
+    font-size: 50px;
+    text-decoration: underline;
+    color: rgb(4, 36, 177);
+    font-family: 'Courier New', Courier, monospace;
+}
+.second{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.blog{
+    margin: 20px;
+    border: 10px solid yellow;
+    box-shadow: 10px 10px 10px 5px blueviolet;
+}
+.con{
+    border: 5px solid green;
+}
+.lorem{
+    background-color: chartreuse;
+    border-radius: 10px;
+    font-size: large;
+    font-style: italic;
+}

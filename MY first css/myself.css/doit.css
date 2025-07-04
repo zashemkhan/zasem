@@ -1,0 +1,143 @@
+.banner {
+  height: 100vh;
+  background-image: url('books.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;  
+  align-items: center;  
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.image-cantainer {
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 30px 40px;
+  border-radius: 10px;
+}
+
+.image-cantainer h2 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.image-cantainer p {
+  font-size: 1.2rem;
+}
+.heading{
+    text-align: center;
+    background-color:rgb(194, 191, 191);
+    border-radius: 6px;
+    padding: 12px 20px;
+    display: inline-block;
+    font-family: 'Arial', sans-serif;
+}
+.heading1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 15vh;
+
+}
+#Reading{
+    margin: 1px;
+    border: 5px;
+    background-color: rgb(200, 250, 250);
+    padding: 5px;
+    border-radius: 5px;
+}
+.anchor{
+  background-color: #89eb8c;
+  background-size: 10px;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5px;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.first1{
+text-align:center;
+margin-top: 1px;
+background-color: rgb(148, 247, 247);
+background-position: left;
+border-radius: 7px;
+width: 250px;
+height: 270px;
+padding: 5px;
+font-weight: 100;
+box-shadow: 0 4px 8px;
+}
+
+.first{
+   
+ text-align:center;
+}
+
+.second2{
+  text-align:center;
+margin-top: 1px;
+background-color: rgb(148, 247, 247);
+background-position: left;
+border-radius: 7px;
+width: 250px;
+height: 270px;
+padding: 5px;
+font-weight: 100;
+box-shadow: 0 4px 8px;
+
+}
+
+.second{
+   
+  font-style: italic;
+}
+.third3{
+  text-align:center;
+margin-top: 1px;
+background-color: rgb(148, 247, 247);
+background-position: left;
+border-radius: 7px;
+width: 250px;
+height: 270px;
+padding: 5px;
+font-weight: 100;
+box-shadow: 0 4px 8px;
+
+}
+
+.third{
+   position: top;
+  font-style: italic;
+}
+.booklist{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  margin: auto;
+  padding: 20px;
+}
+.booklist img{
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+#favorite{
+ text-align: center;
+}
